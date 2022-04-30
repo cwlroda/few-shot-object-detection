@@ -100,6 +100,7 @@ if __name__ == "__main__":
                     time.time() - start_time,
                 )
             )
+            # logger.info("Predictions: {}".format(predictions))
 
             if args.output:
                 if os.path.isdir(args.output):

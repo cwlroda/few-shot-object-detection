@@ -20,6 +20,7 @@ from .builtin_meta import _get_builtin_metadata
 from .meta_coco import register_meta_coco
 from .meta_lvis import register_meta_lvis
 from .meta_pascal_voc import register_meta_pascal_voc
+from .meta_bdd100k import register_meta_bdd100k
 
 # ==== Predefined datasets and splits for COCO ==========
 
@@ -263,7 +264,85 @@ def register_all_pascal_voc(root="datasets"):
         MetadataCatalog.get(name).evaluator_type = "pascal_voc"
 
 
+def register_all_bdd100k(root="datasets"):
+    # register meta datasets
+    METASPLITS = [
+        (
+            "bdd100k_train_1shot",
+            "scalabel/1shot/train",
+            "scalabel/1shot/labels_train.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_train_2shot",
+            "scalabel/2shot/train",
+            "scalabel/2shot/labels_train.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_train_3shot",
+            "scalabel/3shot/train",
+            "scalabel/3shot/labels_train.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_train_5shot",
+            "scalabel/5shot/train",
+            "scalabel/5shot/labels_train.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_train_10shot",
+            "scalabel/10shot/train",
+            "scalabel/10shot/labels_train.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_test_1shot",
+            "scalabel/1shot/test",
+            "scalabel/1shot/labels_test.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_test_2shot",
+            "scalabel/2shot/test",
+            "scalabel/2shot/labels_test.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_test_3shot",
+            "scalabel/3shot/test",
+            "scalabel/3shot/labels_test.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_test_5shot",
+            "scalabel/5shot/test",
+            "scalabel/5shot/labels_test.json",
+            "scalabel/det_configs.toml",
+        ),
+        (
+            "bdd100k_test_10shot",
+            "scalabel/10shot/test",
+            "scalabel/10shot/labels_test.json",
+            "scalabel/det_configs.toml",
+        ),
+
+    ]
+    for name, image_root, json_file, cfg in METASPLITS:
+        split = name.split("_")[-1]
+        register_meta_bdd100k(
+            name,
+            _get_builtin_metadata("bdd100k"),
+            os.path.join(root, json_file),
+            os.path.join(root, image_root),
+            os.path.join(root, cfg),
+            split,
+        )
+
+
 # Register them all under "./datasets"
 register_all_coco()
 register_all_lvis()
 register_all_pascal_voc()
+register_all_bdd100k()

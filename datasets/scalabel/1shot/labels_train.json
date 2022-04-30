@@ -1,0 +1,370 @@
+{
+  "frames": [
+    {
+      "name": "intersection-0000051.jpg",
+      "url": "https://s3-us-west-2.amazonaws.com/scalabel-public/demo/frames/intersection-0000051.jpg",
+      "videoName": "b",
+      "timestamp": 0,
+      "attributes": {},
+      "labels": [
+        {
+          "id": "HcoIuoZW9r85yGFk",
+          "category": "car",
+          "attributes": {},
+          "manualShape": true,
+          "box2d": {
+            "x1": 483.1484794275492,
+            "x2": 849.5169946332737,
+            "y1": 351.4132379248658,
+            "y2": 480
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "HVfGsVXyUEmlsgus",
+          "category": "car",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 293.0948121645796,
+            "x2": 589.624329159213,
+            "y1": 358.2826475849732,
+            "y2": 468.1932021466905
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "IL5AjF3vH5uwUnIC",
+          "category": "car",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": true,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 1.144901610017889,
+            "x2": 167.15563506261182,
+            "y1": 391.48479427549194,
+            "y2": 563.2200357781753
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "zKAXxsEGufaQWFXM",
+          "category": "car",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 169.4454382826476,
+            "x2": 401.8604651162791,
+            "y1": 351.4132379248658,
+            "y2": 444.15026833631487
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "LiJBSpWt21XMzCjU",
+          "category": "car",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 808.3005366726297,
+            "x2": 1037.2808586762076,
+            "y1": 334.2397137745975,
+            "y2": 421.2522361359571
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "J5ZGIwKm6MrclgPO",
+          "category": "car",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 958.2826475849732,
+            "x2": 1250.2325581395348,
+            "y1": 304.7255369928401,
+            "y2": 430.41144901610016
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "h7Fm6Mi9HX3tJ6yl",
+          "category": "bus",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 135.09838998211092,
+            "x2": 253.02325581395348,
+            "y1": 307.90697674418607,
+            "y2": 429.2665474060823
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "jkPxk5ydJ66KhpIV",
+          "category": "traffic light",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "R"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 40.07155635062612,
+            "x2": 54.95527728085868,
+            "y1": 249.5169946332737,
+            "y2": 301.0375670840787
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "PGEsszOTgkoLyrEC",
+          "category": "traffic light",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "R"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 257.95346062052505,
+            "x2": 272.27326968973745,
+            "y1": 222.03935599284438,
+            "y2": 258.67620751341684
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "ObW0HbN1hTUDjfWk",
+          "category": "traffic light",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "R"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 516.350626118068,
+            "x2": 546.6408114558473,
+            "y1": 43.43470483005367,
+            "y2": 115.56350626118069
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "Swj6HZBxQqSGWnFx",
+          "category": "traffic light",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "R"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 803.7209302325582,
+            "x2": 818.6046511627907,
+            "y1": 230.05366726296958,
+            "y2": 263.25581395348837
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "IVzNHNytuu8TfRkq",
+          "category": "bus",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 332.98926014319807,
+            "x2": 411.4618138424821,
+            "y1": 329.9284009546539,
+            "y2": 370.0238663484487
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "Q67G6Dl2jbMuE8ak",
+          "category": "traffic sign",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 47.73866348448687,
+            "x2": 79.24224343675418,
+            "y1": 315.6085918854415,
+            "y2": 325.91885441527444
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "RtZj6tIfkuPhD6Zt",
+          "category": "traffic sign",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 804.3973747016706,
+            "x2": 821.5811455847255,
+            "y1": 266.3484486873508,
+            "y2": 274.3675417661098
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "WzbWRcnIdrLLIHIR",
+          "category": "traffic sign",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 825.590692124105,
+            "x2": 845.0656324582338,
+            "y1": 254.8926014319809,
+            "y2": 264.6300715990453
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "ddX0bxsU7v5u9JY3",
+          "category": "traffic sign",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 810.1252983293556,
+            "x2": 838.1921241050119,
+            "y1": 281.81384248210026,
+            "y2": 292.1241050119332
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "fUubVCc32WCUqgci",
+          "category": "traffic sign",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 1195.0417661097852,
+            "x2": 1279.2422434367543,
+            "y1": 53.84248210023866,
+            "y2": 83.62768496420048
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "5Km7xn6yEiRb4ncv",
+          "category": "traffic light",
+          "attributes": {
+            "Occluded": false,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 831.8914081145584,
+            "x2": 848.5023866348448,
+            "y1": 304.7255369928401,
+            "y2": 320.1909307875895
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "gvDyQIlPLzsBjsaa",
+          "category": "car",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 519.7853309481217,
+            "x2": 623.9713774597495,
+            "y1": 329.6842105263158,
+            "y2": 379.4887218045113
+          },
+          "poly2d": null,
+          "box3d": null
+        },
+        {
+          "id": "fT7u2j1b43xdSAuD",
+          "category": "truck",
+          "attributes": {
+            "Occluded": true,
+            "Truncated": false,
+            "Traffic Light Color": "NA"
+          },
+          "manualShape": true,
+          "box2d": {
+            "x1": 450.5328947368421,
+            "x2": 493.29981203007515,
+            "y1": 330.76691729323306,
+            "y2": 355.6691729323308
+          },
+          "poly2d": null,
+          "box3d": null
+        }
+      ],
+      "sensor": -1
+    }
+  ]
+}

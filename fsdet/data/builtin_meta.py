@@ -376,6 +376,20 @@ PASCAL_VOC_BASE_CATEGORIES = {
 }
 
 
+BDD100K_ALL_CATEGORIES = [
+    "pedestrian",
+    "rider",
+    "car",
+    "truck",
+    "bus",
+    "train",
+    "motorcycle",
+    "bicycle",
+    "traffic light",
+    "traffic sign"
+]
+
+
 def _get_coco_instances_meta():
     thing_ids = [k["id"] for k in COCO_CATEGORIES if k["isthing"] == 1]
     thing_colors = [k["color"] for k in COCO_CATEGORIES if k["isthing"] == 1]
@@ -455,6 +469,11 @@ def _get_pascal_voc_fewshot_instances_meta():
     return ret
 
 
+def _get_bdd100k_instances_meta():
+    ret = {"thing_classes": BDD100K_ALL_CATEGORIES}
+    return ret
+
+
 def _get_builtin_metadata(dataset_name):
     if dataset_name == "coco":
         return _get_coco_instances_meta()
@@ -466,4 +485,6 @@ def _get_builtin_metadata(dataset_name):
         return _get_lvis_fewshot_instances_meta_v0_5()
     elif dataset_name == "pascal_voc_fewshot":
         return _get_pascal_voc_fewshot_instances_meta()
+    elif dataset_name == "bdd100k":
+        return _get_bdd100k_instances_meta()
     raise KeyError("No built-in metadata for dataset {}".format(dataset_name))
